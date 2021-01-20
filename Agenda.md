@@ -6,25 +6,9 @@
 5. Stash
 
 ### Live example
+Check out PowerPoint titled: Clean Git History
 
-Aim: How to persist a clear and readable Git History
-Why:
-  - Easy rollback via `git rollback`
-  - Clear signal of intent allows easier Pull Request review
-  - Colleagues will think you're very cool
-  - Makes your team look like they know what they're doing if you become open source
-
-GitX as optional tooling: https://github.com/rowanj/gitx
-
-Scenario:
-The standard workflow is...
-
-1. git checkout -n new-branch
-1. git commit -m "feature progress 1"
-1. <>
-#### Merge vs Rebase
-
-
-#### Interactive Rebase (reword, squash, fixup)
-
-#### Reflog
+Topics:
+1. Merge vs Rebase when pulling master
+1. Interactive Rebase (reword, squash, fixup)
+1. Reflog
