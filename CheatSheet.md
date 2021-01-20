@@ -31,3 +31,7 @@
 `git stash pop` - Apply stashed, last in first out
 
 #### Rebase
+`git pull origin master --rebase` - Do this once a day to keep branch up to date on your branch
+
+#### Fix history of branch last 2 commits
+`git rebase -i HEAD~2`
