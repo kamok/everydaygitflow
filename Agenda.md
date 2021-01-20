@@ -14,7 +14,16 @@ Why:
   - Colleagues will think you're very cool
   - Makes your team look like they know what they're doing if you become open source
 
+GitX as optional tooling: https://github.com/rowanj/gitx
+
+Scenario:
+The standard workflow is...
+
+1. git checkout -n new-branch
+1. git commit -m "feature progress 1"
+1. <>
 #### Merge vs Rebase
+
 
 #### Interactive Rebase (reword, squash, fixup)
 
