@@ -30,3 +30,4 @@
 
 `git stash pop` - Apply stashed, last in first out
 
+#### Rebase
