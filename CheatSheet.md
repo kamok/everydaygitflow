@@ -30,8 +30,16 @@
 
 `git stash pop` - Apply stashed, last in first out
 
-#### Rebase
+#### Pulling with Rebase
 `git pull origin master --rebase` - Do this once a day to keep branch up to date on your branch
 
 #### Fix history of branch last 2 commits
 `git rebase -i HEAD~2`
+Useful ones: `squash`, `reword`, `drop`
+
+#### Go back to a point in time before you messed up rebase
+`git reflog`
+`git reset --hard <SHA OF LAST GOOD COMMIT>`
+#### Fixup
+`git commit --fixup <SHA OF COMMIT TO FIX>`
+`git rebase -i --autosquash master`
